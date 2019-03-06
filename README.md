@@ -1,11 +1,11 @@
 <p align="center">
-    <img src="https://github.com/trimstray/the-book-of-secret-knowledge/blob/master/doc/img/the-book-of-secret-knowledge-preview.png"
+    <img src="https://github.com/trimstray/the-book-of-secret-knowledge/blob/master/static/img/the-book-of-secret-knowledge-preview.png"
         alt="Master">
 </p>
 
 <p align="center">"<i>Knowledge is powerful, be careful how you use it!</i>"</p>
 
-<h4 align="center">A collection of awesome lists, manuals, blogs, hacks, one-liners, cli/web tools and more.</h4>
+<h4 align="center">A collection of inspiring lists, manuals, cheatsheets, blogs, hacks, one-liners, cli/web tools and more.</h4>
 
 <br>
 
@@ -42,11 +42,11 @@ This list is a collection of various materials that I use every day in my work. 
 
 ## :restroom: &nbsp;For whom?
 
-It is intended for everyone and anyone - especially for System and Network Administrators, DevOps, Pentesters or Security Researchers.
+This collection is suitable for everyone. It is aimed towards System and Network administrators, DevOps, Pentesters and Security Researchers.
 
 ## :information_source: &nbsp;Contributing
 
-If you find something which doesn't make sense, or one of these doesn't seem right, or something seems really stupid; please make a pull request or please add valid and well-reasoned opinions about your changes or comments.
+If you find something which doesn't make sense, or something doesn't seem right, please make a pull request and please add valid and well-reasoned explanations about your changes or comments.
 
 A few simple rules for this project:
 
@@ -61,11 +61,11 @@ These below rules may be better:
 
 Url marked **\*** is temporary unavailable. Please don't delete it without confirming that it has permanently expired.
 
-Before add pull request please see **[this](CONTRIBUTING.md)**. All **suggestions/PR** are welcome!
+Before adding a pull request, please see the **[contributing guidelines](CONTRIBUTING.md)**. All **suggestions/PR** are welcome!
 
 ## :gift_heart: &nbsp;Support
 
-If this project is useful and important for you or if you really like _the-book-of-secret-knowledge_, you can bring me **more positive energy**, give me some **good words** or **support this project** more. Thank you!
+If this project is useful and important for you or if you really like _the-book-of-secret-knowledge_, you can bring **positive energy** by giving some **good words** or **supporting this project**. Thank you!
 
 ## :ballot_box_with_check: &nbsp;Todo
 
@@ -88,6 +88,7 @@ Only main chapters:
 - **[Your daily knowledge and news](#your-daily-knowledge-and-news-toc)**
 - **[Other Cheat Sheets](#other-cheat-sheets-toc)**
 - **[One-liners](#one-liners-toc)**
+- **[Shell functions](#shell-functions-toc)**
 
 ## :trident: &nbsp;The Book of Secret Knowledge (Chapters)
 
@@ -206,14 +207,15 @@ Only main chapters:
 &nbsp;&nbsp;:small_orange_diamond: <a href="https://en.wikipedia.org/wiki/Lsof"><b>lsof</b></a> - displays in its output information about files that are opened by processes.<br>
 &nbsp;&nbsp;:small_orange_diamond: <a href="http://www.brendangregg.com/flamegraphs.html"><b>FlameGraph</b></a> - stack trace visualizer.<br>
 &nbsp;&nbsp;:small_orange_diamond: <a href="https://github.com/zevv/lsofgraph"><b>lsofgraph</b></a> - small utility to convert Unix lsof output to a graph showing FIFO and UNIX interprocess communication.<br>
+&nbsp;&nbsp;:small_orange_diamond: <a href="https://pcp.io/index.html"><b>Performance Co-Pilot</b></a> - a system performance analysis toolkit.</br>
 &nbsp;&nbsp;:small_orange_diamond: <a href="https://github.com/sharkdp/hexyl"><b>hexyl</b></a> - a command-line hex viewer.<br>
-
 </p>
 
 ##### :black_small_square: Log Analyzers
 
 <p>
 &nbsp;&nbsp;:small_orange_diamond: <a href="https://github.com/rcoh/angle-grinder"><b>angle-grinder</b></a> - slice and dice log files on the command line.<br>
+&nbsp;&nbsp;:small_orange_diamond: <a href="https://lnav.org"><b>lnav</b></a> - log file navigator with search and automatic refresh.<br>
 &nbsp;&nbsp;:small_orange_diamond: <a href="https://goaccess.io/"><b>GoAccess</b></a> - real-time web log analyzer and interactive viewer that runs in a terminal.<br>
 &nbsp;&nbsp;:small_orange_diamond: <a href="https://github.com/lebinh/ngxtop"><b>ngxtop</b></a> - real-time metrics for nginx server.<br>
 </p>
@@ -238,6 +240,7 @@ Only main chapters:
 <p>
 &nbsp;&nbsp;:small_orange_diamond: <a href="http://inotify.aiken.cz/"><b>incron</b></a> - is an inode-based filesystem notification technology.<br>
 &nbsp;&nbsp;:small_orange_diamond: <a href="https://github.com/rgburke/grv"><b>GRV</b></a> - is a terminal based interface for viewing Git repositories.<br>
+&nbsp;&nbsp;:small_orange_diamond: <a href="https://jonas.github.io/tig/"><b>Tig</b></a> - text-mode interface for Git.<br>
 &nbsp;&nbsp;:small_orange_diamond: <a href="https://github.com/tldr-pages/tldr"><b>tldr</b></a> - simplified and community-driven man pages.<br>
 &nbsp;&nbsp;:small_orange_diamond: <a href="https://github.com/tj/commander.js/"><b>commander.js</b></a> - minimal CLI creator in JavaScript.<br>
 </p>
@@ -249,6 +252,7 @@ Only main chapters:
 <p>
 &nbsp;&nbsp;:small_orange_diamond: <a href="https://github.com/Guake/guake"><b>Guake</b></a> - is a dropdown terminal made for the GNOME desktop environment.<br>
 &nbsp;&nbsp;:small_orange_diamond: <a href="https://gnometerminator.blogspot.com/p/introduction.html"><b>Terminator</b></a> - is based on GNOME Terminal, useful features for sysadmins and other users.<br>
+&nbsp;&nbsp;:small_orange_diamond: <a href="https://sw.kovidgoyal.net/kitty/"><b>Kitty</b></a> - is a GPU based terminal emulator that supports smooth scrolling and images.<br>
 </p>
 
 ##### :black_small_square: Network
@@ -570,12 +574,14 @@ performance of any of your sites from across the globe.<br>
 &nbsp;&nbsp;:small_orange_diamond: <a href="http://wiki.bash-hackers.org/start"><b>The Bash Hackers Wiki</b></a> - hold documentation of any kind about GNU Bash.<br>
 &nbsp;&nbsp;:small_orange_diamond: <a href="http://pubs.opengroup.org/onlinepubs/9699919799/utilities/contents.html"><b>Shell & Utilities</b></a> - describes the commands and utilities offered to application programs by POSIX-conformant systems.<br>
 &nbsp;&nbsp;:small_orange_diamond: <a href="https://github.com/jlevy/the-art-of-command-line"><b>the-art-of-command-line</b></a> - master the command line, in one page.<br>
+&nbsp;&nbsp;:small_orange_diamond: <a href="https://google.github.io/styleguide/shell.xml"><b>Shell Style Guide</b></a> - a shell style guide for Google-originated open-source projects.<br>
 </p>
 
 ##### :black_small_square: Python
 
 <p>
 &nbsp;&nbsp;:small_orange_diamond: <a href="https://awesome-python.com/"><b>Awesome Python</b></a> - a curated list of awesome Python frameworks, libraries, software and resources.<br>
+&nbsp;&nbsp;:small_orange_diamond: <a href="https://github.com/gto76/python-cheatsheet"><b>python-cheatsheet</b></a> - comprehensive Python cheatsheet.<br>
 </p>
 
 ##### :black_small_square: Sed & Awk & Other
@@ -613,27 +619,31 @@ performance of any of your sites from across the globe.<br>
 ##### :black_small_square: Security & Privacy
 
 <p>
-&nbsp;&nbsp;:small_orange_diamond: <a href="https://www.owasp.org/index.php/Main_Page"><b>OWASP</b></a> - worldwide not-for-profit charitable organization focused on improving the security of software.<br>
-&nbsp;&nbsp;:small_orange_diamond: <a href="https://www.owasp.org/index.php/Category:OWASP_Application_Security_Verification_Standard_Project"><b>OWASP ASVS 3.0.1</b></a> - OWASP Application Security Verification Standard Project.<br>
-&nbsp;&nbsp;:small_orange_diamond: <a href="https://github.com/Santandersecurityresearch/asvs"><b>OWASP ASVS 3.0.1 Web App</b></a> - simple web app that helps developers understand the ASVS requirements.<br>
-&nbsp;&nbsp;:small_orange_diamond: <a href="https://www.owasp.org/index.php/OWASP_Testing_Project"><b>OWASP Testing Guide v4</b></a> - includes a "best practice" penetration testing framework.<br>
 &nbsp;&nbsp;:small_orange_diamond: <a href="http://www.hackingarticles.in/"><b>Hacking Articles</b></a> - LRaj Chandel's Security & Hacking Blog.<br>
 &nbsp;&nbsp;:small_orange_diamond: <a href="https://github.com/toniblyx/my-arsenal-of-aws-security-tools"><b>AWS security tools</b></a> - make your AWS cloud environment more secure.<br>
 &nbsp;&nbsp;:small_orange_diamond: <a href="https://inventory.rawsec.ml/index.html"><b>Rawsec's CyberSecurity Inventory</b></a> - an inventory of tools and resources about CyberSecurity.<br>
-&nbsp;&nbsp;:small_orange_diamond: <a href="https://appsecwiki.com/#/"><b>Application Security Wiki</b></a> - is an initiative to provide all application security related resources at one place.<br>
 &nbsp;&nbsp;:small_orange_diamond: <a href="https://tls.ulfheim.net/"><b>The Illustrated TLS Connection</b></a> - every byte of a TLS connection explained and reproduced.<br>
 &nbsp;&nbsp;:small_orange_diamond: <a href="https://github.com/ssllabs/research/wiki/SSL-and-TLS-Deployment-Best-Practices"><b>SSL Research</b></a> - SSL and TLS Deployment Best Practices by SSL Labs.<br>
 &nbsp;&nbsp;:small_orange_diamond: <a href="https://smallstep.com/blog/everything-pki.html"><b>Certificates and PKI</b></a> - everything you should know about certificates and PKI but are too afraid to ask.<br>
 &nbsp;&nbsp;:small_orange_diamond: <a href="https://appsecco.com/books/subdomain-enumeration/"><b>The Art of Subdomain Enumeration</b></a> - a reference for subdomain enumeration techniques.<br>
-&nbsp;&nbsp;:small_orange_diamond: <a href="https://github.com/GrrrDog/weird_proxies/wiki"><b>Weird Proxies</b></a> - reverse proxy related attacks; it is a result of analysis of various reverse proxies, cache proxies, etc.<br>
 &nbsp;&nbsp;:small_orange_diamond: <a href="https://lifehacker.com/the-comprehensive-guide-to-quitting-google-1830001964"><b>Quitting Google</b></a> - the comprehensive guide to quitting Google.<br>
 </p>
 
 ##### :black_small_square: Web Apps
 
 <p>
+&nbsp;&nbsp;:small_orange_diamond: <a href="https://www.owasp.org/index.php/Main_Page"><b>OWASP</b></a> - worldwide not-for-profit charitable organization focused on improving the security of software.<br>
+&nbsp;&nbsp;:small_orange_diamond: <a href="https://www.owasp.org/index.php/Category:OWASP_Application_Security_Verification_Standard_Project"><b>OWASP ASVS 3.0.1</b></a> - OWASP Application Security Verification Standard Project.<br>
+&nbsp;&nbsp;:small_orange_diamond: <a href="https://github.com/Santandersecurityresearch/asvs"><b>OWASP ASVS 3.0.1 Web App</b></a> - simple web app that helps developers understand the ASVS requirements.<br>
+&nbsp;&nbsp;:small_orange_diamond: <a href="https://www.owasp.org/index.php/OWASP_Testing_Project"><b>OWASP Testing Guide v4</b></a> - includes a "best practice" penetration testing framework.<br>
 &nbsp;&nbsp;:small_orange_diamond: <a href="https://infosec.mozilla.org/guidelines/web_security.html"><b>Mozilla Web Security</b></a> - help operational teams with creating secure web applications.<br>
 &nbsp;&nbsp;:small_orange_diamond: <a href="https://enable-cors.org/index.html"><b>Enable CORS</b></a> - enable cross-origin resource sharing.<br>
+&nbsp;&nbsp;:small_orange_diamond: <a href="https://appsecwiki.com/#/"><b>Application Security Wiki</b></a> - is an initiative to provide all application security related resources at one place.<br>
+&nbsp;&nbsp;:small_orange_diamond: <a href="https://github.com/GrrrDog/weird_proxies/wiki"><b>Weird Proxies</b></a> - reverse proxy related attacks; it is a result of analysis of various reverse proxies, cache proxies, etc.<br>
+&nbsp;&nbsp;:small_orange_diamond: <a href="https://dfir.it/blog/2015/08/12/webshell-every-time-the-same-purpose/"><b>Webshells</b></a> - great series about malicious payloads.<br>
+&nbsp;&nbsp;:small_orange_diamond: <a href="https://portswigger.net/blog/practical-web-cache-poisoning"><b>Practical Web Cache Poisoning</b></a> - show you how to compromise websites by using esoteric web features.<br>
+&nbsp;&nbsp;:small_orange_diamond: <a href="https://medium.com/@_bl4de/hidden-directories-and-files-as-a-source-of-sensitive-information-about-web-application-84e5c534e5ad"><b>Hidden directories and files</b></a> - as a source of sensitive information about web application.<br>
+&nbsp;&nbsp;:small_orange_diamond: <a href="https://www.netsparker.com/security-cookies-whitepaper/"><b>Security Cookies</b></a> - this paper will take a close look at cookie security.<br>
 </p>
 
 ##### :black_small_square: Other
@@ -652,7 +662,6 @@ performance of any of your sites from across the globe.<br>
 &nbsp;&nbsp;:small_orange_diamond: <a href="https://labs.ripe.net/Members/cteusche/bgp-meets-cat"><b>BGP Meets Cat</b></a> - after 3072 hours of manipulating BGP, Job Snijders has succeeded in drawing a Nyancat.<br>
 &nbsp;&nbsp;:small_orange_diamond: <a href="https://robertheaton.com/2018/11/28/https-in-the-real-world/"><b>HTTPS in the real world</b></a> - great tutorial explain how HTTPS works in the real world.<br>
 &nbsp;&nbsp;:small_orange_diamond: <a href="https://about.gitlab.com/2018/11/14/how-we-spent-two-weeks-hunting-an-nfs-bug/"><b>Gitlab and NFS bug</b></a> - how we spent two weeks hunting an NFS bug in the Linux kernel.<br>
-&nbsp;&nbsp;:small_orange_diamond: <a href="https://medium.com/@_bl4de/hidden-directories-and-files-as-a-source-of-sensitive-information-about-web-application-84e5c534e5ad"><b>Hidden directories and files</b></a> - as a source of sensitive information about web application.<br>
 &nbsp;&nbsp;:small_orange_diamond: <a href="http://www.catb.org/esr/faqs/hacker-howto.html"><b>How To Become A Hacker</b></a> - if you want to be a hacker, keep reading.<br>
 &nbsp;&nbsp;:small_orange_diamond: <a href="http://ithare.com/infographics-operation-costs-in-cpu-clock-cycles/"><b>Operation Costs in CPU</b></a> - an infographics which should help to estimate costs of certain operations in CPU clocks.<br>
 </p>
@@ -676,6 +685,8 @@ performance of any of your sites from across the globe.<br>
 
 <p>
 &nbsp;&nbsp;:small_orange_diamond: <a href="https://github.com/thedaviddias/Front-End-Checklist"><b>Front-End-Checklist</b></a> - the perfect Front-End Checklist for modern websites and meticulous developers.<br>
+&nbsp;&nbsp;:small_orange_diamond: <a href="https://rszalski.github.io/magicmethods/"><b>Python's Magic Methods</b></a> - what are magic methods? They're everything in object-oriented Python.<br>
+&nbsp;&nbsp;:small_orange_diamond: <a href="https://github.com/satwikkansal/wtfpython"><b>wtfpython</b></a> - a collection of surprising Python snippets and lesser-known features.<br>
 </p>
 
 ##### :black_small_square: Security/Pentesting
@@ -687,6 +698,7 @@ performance of any of your sites from across the globe.<br>
 &nbsp;&nbsp;:small_orange_diamond: <a href="https://github.com/snoopysecurity/awesome-burp-extensions"><b>awesome-burp-extensions</b></a> - a curated list of amazingly awesome Burp Extensions.<br>
 &nbsp;&nbsp;:small_orange_diamond: <a href="https://github.com/Hack-with-Github/Free-Security-eBooks"><b>Free Security eBooks</b></a> - list of a Free Security and Hacking eBooks.<br>
 &nbsp;&nbsp;:small_orange_diamond: <a href="https://github.com/wtsxDev/reverse-engineering"><b>reverse-engineering</b></a> - list of awesome reverse engineering resources.<br>
+&nbsp;&nbsp;:small_orange_diamond: <a href="https://github.com/0xInfection/Awesome-WAF"><b>Awesome-WAF</b></a> - a curated list of awesome web-app firewall (WAF) stuff.<br>
 &nbsp;&nbsp;:small_orange_diamond: <a href="https://github.com/k4m4/movies-for-hackers"><b>Movies for Hackers</b></a> - list of movies every hacker & cyberpunk must watch.<br>
 &nbsp;&nbsp;:small_orange_diamond: <a href="https://github.com/trimstray/technical-whitepapers"><b>technical-whitepapers</b></a> - IT whitepapers; hacking, web app security, db, reverse engineering and more; EN/PL.<br>
 </p>
@@ -716,6 +728,7 @@ performance of any of your sites from across the globe.<br>
 &nbsp;&nbsp;:small_orange_diamond: <a href="https://linuxsecurity.expert/"><b>
 Linux Security Expert</b></a> - trainings, howtos, checklists, security tools and more.<br>
 &nbsp;&nbsp;:small_orange_diamond: <a href="http://www.grymoire.com/"><b>The Grymoire</b></a> - collection of useful incantations for wizards, be you computer wizards, magicians, or whatever.<br>
+&nbsp;&nbsp;:small_orange_diamond: <a href="https://portswigger.net/blog"><b>PortSwigger Web Security Blog</b></a> - about web app security vulns and top tips from our team of web security.<br>
 </p>
 
 ##### :black_small_square: A piece of history
@@ -738,6 +751,13 @@ Linux Security Expert</b></a> - trainings, howtos, checklists, security tools an
 &nbsp;&nbsp;:small_orange_diamond: <a href="https://cirt.net/Nikto2"><b>Nikto2</b></a> - web server scanner which performs comprehensive tests against web servers for multiple items.<br>
 &nbsp;&nbsp;:small_orange_diamond: <a href="http://sqlmap.org/"><b>sqlmap</b></a> - tool that automates the process of detecting and exploiting SQL injection flaws.<br>
 &nbsp;&nbsp;:small_orange_diamond: <a href="https://www.faradaysec.com/"><b>Faraday</b></a> - an Integrated Multiuser Pentest Environment.<br>
+&nbsp;&nbsp;:small_orange_diamond: <a href="https://github.com/s0md3v/Photon"><b>Photon</b></a> - incredibly fast crawler designed for OSINT.<br>
+&nbsp;&nbsp;:small_orange_diamond: <a href="https://github.com/s0md3v/XSStrike"><b>XSStrike</b></a> - most advanced XSS detection suite.<br>
+&nbsp;&nbsp;:small_orange_diamond: <a href="https://www.openwall.com/john/"><b>John The Ripper</b></a> - is a fast password cracker, currently available for many flavors of Unix, Windows, and other.<br>
+&nbsp;&nbsp;:small_orange_diamond: <a href="https://hashcat.net/hashcat/"><b>hashcat</b></a> - world's fastest and most advanced password recovery utility.<br>
+&nbsp;&nbsp;:small_orange_diamond: <a href="http://lcamtuf.coredump.cx/p0f3/"><b>p0f</b></a> - is a tool to identify the players behind any incidental TCP/IP communications.<br>
+&nbsp;&nbsp;:small_orange_diamond: <a href="https://bitbucket.org/LaNMaSteR53/recon-ng"><b>Recon-ng</b></a> - is a full-featured Web Reconnaissance framework written in Python.<br>
+&nbsp;&nbsp;:small_orange_diamond: <a href="https://github.com/offensive-security/exploitdb"><b>exploitdb</b></a> - searchable archive from The Exploit Database.<br>
 &nbsp;&nbsp;:small_orange_diamond: <a href="https://github.com/zardus/ctf-tools"><b>ctf-tools</b></a> - some setup scripts for security research tools.<br>
 &nbsp;&nbsp;:small_orange_diamond: <a href="https://github.com/bl4de/security-tools"><b>security-tools</b></a> - collection of small security tools created mostly in Python. CTFs, pentests and so on.<br>
 &nbsp;&nbsp;:small_orange_diamond: <a href="https://github.com/fuzzdb-project/fuzzdb"><b>fuzzdb</b></a> - dictionary of attack patterns and primitives for black-box application fault injection and resource discovery.<br>
@@ -860,6 +880,7 @@ Linux Security Expert</b></a> - trainings, howtos, checklists, security tools an
 
 <p>
 &nbsp;&nbsp;:small_orange_diamond: <a href="https://feedly.com/"><b>Feedly</b></a> - organize, read and share what matters to you.<br>
+&nbsp;&nbsp;:small_orange_diamond: <a href="https://www.inoreader.com/"><b>Inoreader</b></a> - similar to feedly with a support for filtering what you fetch from rss.<br>
 </p>
 
 ##### :black_small_square: IRC Channels
@@ -980,6 +1001,7 @@ Linux Security Expert</b></a> - trainings, howtos, checklists, security tools an
   * [openssl](#tool-openssl)
   * [secure-delete](#tool-secure-delete)
   * [dd](#tool-dd)
+  * [gpg](#tool-gpg)
 - **[HTTP/HTTPS](#http-https)**
   * [curl](#tool-curl)
   * [httpie](#tool-httpie)
@@ -993,6 +1015,7 @@ Linux Security Expert</b></a> - trainings, howtos, checklists, security tools an
   * [nmap](#tool-nmap)
   * [netcat](#tool-netcat)
   * [socat](#tool-socat)
+  * [p0f](#tool-p0f)
   * [gnutls-cli](#tool-gnutls-cli)
   * [lsof](#tool-lsof)
   * [netstat](#tool-netstat)
@@ -1002,6 +1025,7 @@ Linux Security Expert</b></a> - trainings, howtos, checklists, security tools an
   * [certbot](#tool-certbot)
   * [network-other](#tool-network-other)
 - **[Programming](#programming)**
+  * [git](#tool-git)
   * [awk](#tool-awk)
   * [sed](#tool-sed)
   * [grep](#tool-grep)
@@ -1273,6 +1297,12 @@ find . -type f -exec stat --format '%Y :%y %n' "{}" \; | sort -nr | cut -d: -f2-
 
 ```bash
 find . -not -path '*/\.git*' -type f -print0 | xargs -0 sed -i 's/foo/bar/g'
+```
+
+###### Recursively find suid executables
+
+```bash
+find / \( -perm -4000 -o -perm -2000 \) -type f -exec ls -la {} \;
 ```
 
 ___
@@ -1759,6 +1789,46 @@ watch --interval 5 killall -USR1 dd
 ```bash
 echo "string" | dd of=filename
 ```
+
+___
+
+##### Tool: [gpg](https://www.gnupg.org/)
+
+###### Export public key
+
+```bash
+gpg --export --armor "<username>" > username.pkey
+```
+
+  * `--export` - export all keys from all keyrings or specific key
+  * `-a|--armor` - create ASCII armored output
+
+###### Encrypt file
+
+```bash
+gpg -e -r "<username>" dump.sql
+```
+
+  * `-e|--encrypt` - encrypt data
+  * `-r|--recipient` - encrypt for specific <username>
+
+###### Decrypt file
+
+```bash
+gpg -o dump.sql -d dump.sql.gpg
+```
+
+  * `-o|--output` - use as output file
+  * `-d|--decrypt` - decrypt data (default)
+
+###### Search recipient
+
+```bash
+gpg --keyserver hkp://keyserver.ubuntu.com --search-keys "<username>"
+```
+
+  * `--keyserver` - set specific key server
+  * `--search-keys` - search for keys on a key server
 
 <a name="http-https"><b>HTTP/HTTPS</b></a>
 
@@ -2481,6 +2551,21 @@ socat TCP-LISTEN:1234,bind=127.0.0.1,reuseaddr,fork,su=nobody,range=127.0.0.0/8 
 
 ___
 
+##### Tool: [p0f](http://lcamtuf.coredump.cx/p0f3/)
+
+###### Set iface in promiscuous mode and dump traffic to the log file
+
+```bash
+p0f -i enp0s25 -p -d -o /dump/enp0s25.log
+```
+
+  * `-i` - listen on the specified interface
+  * `-p` - set interface in promiscuous mode
+  * `-d` - fork into background
+  * `-o` - output file
+
+___
+
 ##### Tool: [lsof](https://en.wikipedia.org/wiki/Lsof)
 
 ###### Show process that use internet connection at the moment
@@ -2670,6 +2755,20 @@ _dname="google.com" ; curl -s "https://dns.google.com/resolve?name=${_dname}&typ
 
 <a name="programming"><b>Programming</b></a>
 
+##### Tool: [git](https://git-scm.com/)
+
+###### Log alias for a decent view of your repo
+
+```bash
+# 1)
+git log --oneline --decorate --graph --all
+
+# 2)
+git log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
+```
+
+___
+
 ##### Tool: [python](https://www.python.org/)
 
 ###### Static HTTP web server
@@ -2711,6 +2810,18 @@ httpd.socket = ssl.wrap_socket (httpd.socket,
         certfile='path/to/cert.pem', server_side=True)
 
 httpd.serve_forever()
+```
+
+###### Encode base64
+
+```bash
+python -m base64 -e <<< "sample string"
+```
+
+###### Decode base64
+
+```bash
+python -m base64 -d <<< "dGhpcyBpcyBlbmNvZGVkCg=="
 ```
 
 ##### Tool: [awk](http://www.grymoire.com/Unix/Awk.html)
@@ -2790,4 +2901,92 @@ grep -v ^[[:space:]]*# filename
 
 ```bash
 egrep -v '#|^$' filename
+```
+
+#### Shell functions &nbsp;[<sup>[TOC]</sup>](#anger-table-of-contents)
+
+##### Table of Contents
+
+- [Domain resolve](#domain-resolve)
+- [Get ASN](#get-asn)
+
+###### Domain resolve
+
+```bash
+# Dependencies:
+#   - curl
+#   - jq
+
+function DomainResolve() {
+
+  local _host="$1"
+
+  local _curl_base="curl --request GET"
+  local _timeout="15"
+
+  _host_ip=$($_curl_base -ks -m "$_timeout" "https://dns.google.com/resolve?name=${_host}&type=A" | \
+  jq '.Answer[0].data' | tr -d "\"" 2>/dev/null)
+
+  if [[ -z "$_host_ip" ]] || [[ "$_host_ip" == "null" ]] ; then
+
+    echo -en "Unsuccessful domain name resolution.\\n"
+
+  else
+
+    echo -en "$_host > $_host_ip\\n"
+
+  fi
+
+}
+```
+
+Example:
+
+```bash
+shell> DomainResolve nmap.org
+nmap.org > 45.33.49.119
+
+shell> DomainResolve nmap.orgs
+Unsuccessful domain name resolution.
+```
+
+###### Get ASN
+
+```bash
+# Dependencies:
+#   - curl
+#   - python
+
+function GetASN() {
+
+  local _ip="$1"
+
+  local _curl_base="curl --request GET"
+  local _timeout="15"
+
+  _asn=$($_curl_base -ks -m "$_timeout" "http://ip-api.com/json/${_ip}" | python -c 'import sys, json; print json.load(sys.stdin)["as"]' 2>/dev/null)
+
+  _state=$(echo $?)
+
+  if [[ -z "$_ip" ]] || [[ "$_ip" == "null" ]] || [[ "$_state" -ne 0 ]]; then
+
+    echo -en "Unsuccessful ASN gathering.\\n"
+
+  else
+
+    echo -en "$_ip > $_asn\\n"
+
+  fi
+
+}
+```
+
+Example:
+
+```bash
+shell> GetASN 1.1.1.1
+1.1.1.1 > AS13335 Cloudflare, Inc.
+
+shell> GetASN 0.0.0.0
+Unsuccessful ASN gathering.
 ```
